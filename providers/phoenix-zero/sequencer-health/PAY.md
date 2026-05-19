@@ -33,5 +33,7 @@ using `/api/v1/safe` would have received `safe: false` before the revert storm.
 
 ## Payment
 
-x402 USDC on Base (eip155:8453). $0.0001 per request, surge pricing during
-sequencer stress events.
+x402 USDC on Base Sepolia testnet (eip155:84532) — testnet USDC (`0x036CbD53842c5426634e7929541eC2318f3dCF7e`).
+$0.0001 per request, surge pricing during sequencer stress events.
+
+> **Mainnet migration:** Base mainnet (eip155:8453) with mainnet USDC (`0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913`) will be activated once CDP mainnet credentials are configured. The endpoint, response schema, and pricing are identical — only the payment network changes.
